@@ -1,0 +1,165 @@
+/* =======================================================================
+Template Name: B-Space Single Page Template
+Author:  SmartEye Technologies
+Author URI: www.smart-eye.in
+Version: 1.0
+coder name:Prabin Raja
+Description: This Template is created for web template
+
+======================================================================= */
+
+
+/* ===================================== Import Less ================================== */
+
+@import "values.less";
+@import "functions.less";
+
+
+/* ===================================== Basic CSS ================================== */
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+   
+}
+img{max-width: 100%;}
+a {
+    text-decoration: none;
+    outline: none;
+}
+ul{margin-bottom: 0; padding-left: 0;}
+a:hover,
+a:focus,
+input,
+textarea {
+    text-decoration: none;
+    outline: none;
+}
+.cp{cursor: pointer}
+p{margin-bottom: 0px; width: 100%;}
+.layy{padding: 30px;}
+h2{width: 100%;}
+.no-padding{padding: 0px;}
+.no-margin{margin: 0px;}
+.sec-title{
+    text-align: center;
+    
+    h2{font-size: 2rem; font-weight: 600; text-transform: none;
+    font-family:robot-slab }
+    p{font-size: 14px;}
+}
+body{
+    background:@background-color;
+    font-family:robot-slab;
+    font-size:@main-font-size;
+    overflow-x: hidden;
+}
+.container {
+    max-width: 1250px;
+}
+.social{position: fixed;left: 0px; top: 37%; width: 60px; height: 120px; background-color:#EAEAEA;.card-1(); }
+.social ul li{list-style: none; float: none; font-size: 32px; padding: 15px; width: 100%; text-align: center; 
+    color: #FFF}
+.social ul{padding-left: 0px;}
+/* ===================================== Header Style  ================================== */
+.login-box{
+    padding: 20px;
+    background-color: #FFF;
+    float: inherit;
+    margin: auto;
+    margin-top:12%;
+    .shado-1();
+    border-radius: 4px;
+    .title-box{
+        padding:10px;
+        background-color: #9c00ac;
+        .card-1();
+        margin-top: -38px;
+        text-align: center;
+        color: #FFF;
+        border-radius: 4px;
+        margin-bottom: 40px;
+        h2{
+            font-size: 28px;
+            margin-bottom: 0px;
+        }
+        p{
+            font-size: 12px;
+        }
+       
+    }
+     .row{
+            margin: 0px;
+            margin-top: 35px;
+             input{
+                 height: 35px;
+                 border: 0px;
+                 border-bottom: 1px solid #CCC;
+             }
+         label{
+             margin-top: 7px;
+             margin-left: 9px;
+             float: left;
+         }
+         input[type=checkbox]{
+             float: left;
+         }
+        }
+    .chk-lab{
+        margin-top: 40px;
+        .colkd{
+            padding-top: 7px;
+            text-align: right;
+            a{
+                color: #9c00ac;
+                font-size: 13px;
+            }
+        }
+    }
+    .submot-row{
+        text-align: center;
+        margin-top: 10px;
+        .btn-sm{
+            margin-bottom: -55px;
+            .card-1();
+            width: 160px;
+            background-color: #9c00ac;
+            border-color: #9c00ac;
+        }
+    }
+    
+}
+.coy-info{
+    padding: absolute;
+    float: right;
+    bottom:0px;
+    margin-right: 30px;
+    margin-top: 100px;
+}
+
+
+input::-webkit-input-placeholder {
+    font-size: 14px; color: #D8D8D8;
+
+}
+input::-moz-placeholder {
+    font-size: 14px;color: #D8D8D8;
+
+}
+input::-ms-input-placeholder {
+    font-size: 14px;color: #D8D8D8;
+
+}
+
+.btn-success:hover {
+    background-color: #9c27b0 !important;
+    border-color: #9c27b0 !important;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: none !important;
+    border-bottom: 2px solid #9c00ac !important;
+}
